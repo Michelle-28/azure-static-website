@@ -1,9 +1,37 @@
-body{
-font-family:Arial;
-text-align:center;
-margin-top:100px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #0f172a;
+    color: #e2e8f0;
+    line-height: 1.6;
 }
 
-h1{
-color:#0078D4;
+header {
+    background-color: #1e293b;
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+section {
+    padding: 20px 40px;
+}
+
+h2 {
+    color: #38bdf8;
+}
+
+a {
+    color: #60a5fa;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e293b;
+    margin-top: 40px;
 }
