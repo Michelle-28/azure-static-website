@@ -1,54 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Michelle | Cloud & Web Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Michelle | Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
+
+<header class="hero">
+    <div class="hero-card">
         <h1>Michelle van Staden</h1>
-        <p>Aspiring Cloud & Web Developer</p>
-    </header>
 
-    <section>
-        <h2>About Me</h2>
-        <p>
-            I’m currently learning cloud computing and web development,
-            focusing on Microsoft Azure and modern deployment workflows.
-            I enjoy building practical projects and understanding how real-world systems work.
+        <p class="subtitle">
+            Cloud • Web • Building things one deploy at a time
         </p>
-    </section>
 
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>Microsoft Azure (Static Web Apps, Storage, Bicep, Cloud Computing)</li>
-            <li>HTML & CSS</li>
-            <li>C#</li>
-            <li>Git & GitHub</li>
-            <li>Basic DevOps concepts</li>
-        </ul>
-    </section>
+        <a href="#projects" class="button">
+            View My Projects
+        </a>
+    </div>
+</header>
 
-    <section>
-        <h2>Projects</h2>
-        <p>
-            Azure Static Website Deployment (this site)  
-            Built using Bicep and deployed to Azure Storage Static Hosting.
-        </p>
-    </section>
+<section class="card">
+    <h2>About Me</h2>
 
-    <section>
-        <h2>Contact</h2>
-        <p>
-            GitHub: <a href="https://github.com/Michelle-28">Michelle-28</a>
-        </p>
-    </section>
+    <p>
+        I’m learning cloud computing and web development while building
+        practical projects with Azure and modern deployment workflows.
+    </p>
+</section>
 
-    <footer>
-        <p>Built and deployed on Microsoft Azure</p>
-    </footer>
+<section class="card">
+    <h2>Current Stack</h2>
+
+    <div class="tags">
+        <span>Azure</span>
+        <span>Bicep</span>
+        <span>GitHub</span>
+        <span>HTML</span>
+        <span>C#</span>
+        <span>CSS</span>
+    </div>
+</section>
+
+<section class="card" id="projects">
+
+<h2>Projects</h2>
+
+<div class="project">
+
+<h3>Azure Static Website</h3>
+
+<p>
+Deployed using Azure Storage and Infrastructure as Code.
+</p>
+
+</div>
+
+</section>
+
+<footer>
+Built with coffee, curiosity & Azure 
+</footer>
+
 </body>
 </html>
